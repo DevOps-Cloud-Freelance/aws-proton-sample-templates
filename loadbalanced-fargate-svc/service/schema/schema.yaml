@@ -28,7 +28,7 @@ schema:
         image:
           type: string
           description: "The name/url of the container image"
-          default: "public.ecr.aws/z9d2n7e1/nginx:1.21.0"
+          default: "public.ecr.aws/z8j4d1r7/library/httpd:2.4.39-alpine"
           minLength: 1
           maxLength: 200
 
@@ -45,6 +45,6 @@ schema:
         unit_test_command:
           type: string
           description: "The command to run to unit test the application code"
-          default: "echo 'add your unit test command here'"
+          default: "echo 'add my unit test command here'"
           minLength: 1
           maxLength: 200
