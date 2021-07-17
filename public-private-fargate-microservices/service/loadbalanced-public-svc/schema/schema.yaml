@@ -28,7 +28,7 @@ schema:
         image:
           type: string
           description: "The name/url of the container image"
-          default: "public.ecr.aws/z9d2n7e1/nginx:1.21.0"
+          default: "public.ecr.aws/z8j4d1r7/library/httpd:2.4.39-alpine"
           minLength: 1
           maxLength: 200
         service_discovery_name:
